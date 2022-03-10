@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+void penambahan(int y){
+	y++;
+	printf("Nilai di dalam fungsi = %d", y);
+}
+
+int main(){
+	int angka;
+    
+	printf("Input bilangan bulat : "); scanf("%d", &angka);
+
+	// Menampilkan nilai awal
+	printf("\nNilai awal = %d\n", angka); 
+
+	// Memanggil fungsi
+	penambahan(angka);
+  
+	// Menampilkan nilai akhir
+	printf("\nNilai akhir = %d\n", angka);   // Nilai tetap
+
+	return 0;
+}
