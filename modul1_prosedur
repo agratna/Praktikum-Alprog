@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+// Deklarasi Prosedur
+void awal(){
+	printf("\tMENGHITUNG VOLUME DAN LUAS PERMUKAAN BANGUN RUANG\n");
+  	printf("Daftar Bangun Ruang : \n");
+ 	printf("  1. Tabung \n");
+ 	printf("  2. Bola \n");
+ 	printf("  3. Limas Segiempat \n");
+ 	printf("  4. Prisma Segitiga \n");
+ 	printf("  5. Kerucut \n");
+ 	printf("  6. Exit \n\n");
+}
+
+int main(){
+	int menu;
+	char menu2;
+
+awal();		// Pemanggilan prosedur
+printf("Silahkan pilih bangun ruang yang Anda inginkan:\n");
+ 	scanf("%d%c", &menu, &menu2);
+
+	return 0;
+}
